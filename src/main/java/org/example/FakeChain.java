@@ -4,11 +4,11 @@ import com.google.gson.GsonBuilder;
 
 import java.util.ArrayList;
 
-public class FakeChain {
+public class FakeChain { // run me!
 
     public static ArrayList<Block> blockchain = new ArrayList<Block>();
 
-    public static int difficulty = 0;
+    public static int difficulty = 6;
     public static void main(String[] args) {
 
         blockchain.add(new Block("Hi im the first block", "0"));
